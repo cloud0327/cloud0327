@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="56" viewBox="0 0 1280 56" role="img" aria-label="Thanks for stopping by — cloud0327">
+  <defs><linearGradient id="line"><stop stop-color="#71dfd1"/><stop offset="1" stop-color="#71dfd1" stop-opacity="0"/></linearGradient></defs>
+  <path d="M0 1H1280" stroke="url(#line)"/>
+  <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" letter-spacing="2" fill="#738b9e">THANKS FOR STOPPING BY.</text>
+  <text x="1280" y="35" text-anchor="end" font-family="Arial, sans-serif" font-size="12" letter-spacing="2" fill="#738b9e">CLOUD0327</text>
+</svg>

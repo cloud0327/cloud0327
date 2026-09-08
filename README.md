@@ -1,16 +1,15 @@
-## Hi there 👋
+![sena / cloud0327 — Stay curious. Keep creating.](./assets/header.svg)
 
-<!--
-**cloud0327/cloud0327** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<br>
 
-Here are some ideas to get you started:
+### Hi, I'm sena.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Welcome to my corner of GitHub.
+
+作ったもの、試したことを、ここに。
+
+**[Explore repositories ↗](https://github.com/cloud0327?tab=repositories)** &nbsp; / &nbsp; **[Starred projects ↗](https://github.com/cloud0327?tab=stars)**
+
+<br>
+
+![Thanks for stopping by.](./assets/footer.svg)
