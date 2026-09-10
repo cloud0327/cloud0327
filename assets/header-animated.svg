@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">sena — cloud0327</title>
+  <desc id="desc">A floating cloud, orbiting lights, and a slowly turning constellation frame cloud0327. Stay curious. Keep creating.</desc>
+  <style>
+    .float { animation: float 6s ease-in-out infinite; }
+    .ring { animation: rotate 70s linear infinite; }
+    .orbit-a { animation: rotate 12s linear infinite; }
+    .orbit-b { animation: rotate 19s linear infinite reverse; }
+    .pulse { animation: pulse 4s ease-in-out infinite; }
+    .drift { animation: drift 7s ease-in-out infinite; }
+    .signal { animation: signal 5s ease-in-out infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+    @keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+    @keyframes drift { 0%,100% { opacity: .5; } 50% { opacity: 1; } }
+    @keyframes signal { 0%,100% { stroke-dashoffset: 0; } 50% { stroke-dashoffset: -240; } }
+    @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }
+  </style>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#08131f"/><stop offset="1" stop-color="#0c1221"/></linearGradient>
+    <linearGradient id="accent" x2="1" y2="1"><stop stop-color="#a5fff2"/><stop offset="1" stop-color="#4aa8ff"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#1d8998" stop-opacity=".23"/><stop offset="1" stop-color="#1d8998" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8cd9e8" stroke-opacity=".045"/></pattern>
+  </defs>
+  <rect width="1280" height="420" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="20" fill="url(#grid)"/>
+  <ellipse class="drift" cx="1030" cy="205" rx="290" ry="245" fill="url(#glow)"/>
+  <path d="M48 88V48H88M1192 48H1232V88M48 332V372H88M1192 372H1232V332" fill="none" stroke="#65dcca" stroke-opacity=".4"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <circle class="pulse" cx="82" cy="85" r="4" fill="#8df5df"/>
+    <text x="98" y="90" font-size="13" letter-spacing="3" fill="#a0b9c8">SENA / PERSONAL WORKSPACE</text>
+    <text x="76" y="217" font-size="91" font-weight="700" letter-spacing="-5" fill="#eff8ff">cloud<tspan fill="url(#accent)">0327</tspan><tspan fill="#71edda">.</tspan></text>
+    <text x="81" y="264" font-size="23" letter-spacing=".3" fill="#a1b5c8">Stay curious. Keep creating.</text>
+    <path d="M81 314H129" stroke="#7cebdc" stroke-width="2"/>
+    <text x="145" y="319" font-size="11" letter-spacing="2.8" fill="#7895aa">IDEAS → EXPERIMENTS → POSSIBILITIES</text>
+  </g>
+  <g transform="translate(1030 202)">
+    <circle r="132" fill="none" stroke="#75d9db" stroke-opacity=".13"/>
+    <circle class="ring" r="109" fill="none" stroke="#75d9db" stroke-opacity=".32" stroke-dasharray="3 10"/>
+    <ellipse rx="164" ry="54" transform="rotate(-36)" fill="none" stroke="#83e9e1" stroke-opacity=".5"/>
+    <ellipse rx="164" ry="54" transform="rotate(36)" fill="none" stroke="#79bfee" stroke-opacity=".17"/>
+    <g class="float">
+    <path d="M-54 28C-78 28-89 11-85-7C-82-24-66-34-50-32C-45-63-17-78 10-68C29-62 41-44 42-24C64-27 81-11 81 8C81 26 68 39 49 39H-48" fill="#0a1d2a" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M-30 5L-44 16L-30 27M26 5L40 16L26 27M7 0L-8 33" fill="none" stroke="#96f7e8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <g transform="rotate(-36) scale(1 .329268)">
+      <g class="orbit-a">
+        <circle cx="164" cy="0" r="15" fill="#8df5df" opacity=".08"/>
+        <circle cx="164" cy="0" r="5" fill="#b5fff0"/>
+      </g>
+    </g>
+    <g transform="rotate(36) scale(1 .329268)">
+      <g class="orbit-b">
+        <circle cx="-164" cy="0" r="11" fill="#63baf2" opacity=".12"/>
+        <circle cx="-164" cy="0" r="4" fill="#63baf2"/>
+      </g>
+    </g>
+    <path d="M-164-93H-152M-158-99V-87M122 104H134M128 98V110" stroke="#7dcfd9" stroke-opacity=".5"/>
+  </g>
+  <path d="M81 362H760" fill="none" stroke="#70d9d2" stroke-opacity=".13"/>
+  <path class="signal" d="M81 362H760" fill="none" stroke="#8df5df" stroke-width="2" stroke-dasharray="45 634"/>
+</svg>

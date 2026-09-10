@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="260" viewBox="0 0 1280 260" role="img" aria-labelledby="title desc">
+  <title id="title">sena@github — build. learn. repeat.</title>
+  <desc id="desc">A decorative terminal types build. learn. repeat. One idea at a time.</desc>
+  <style>
+    .typing { animation: typing 10s steps(20, end) infinite; }
+    .cursor-position { animation: cursor-position 10s steps(20, end) infinite; }
+    .cursor { animation: blink 1.2s step-end infinite; }
+    .activity { animation: activity 3s ease-in-out infinite alternate; }
+    @keyframes typing { 0%,10% { width: 0; } 45%,90% { width: 300px; } 100% { width: 0; } }
+    @keyframes cursor-position { 0%,10% { transform: translateX(0); } 45%,90% { transform: translateX(300px); } 100% { transform: translateX(0); } }
+    @keyframes blink { 0%,100% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes activity { from { opacity: .25; } to { opacity: .9; } }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .cursor-position { transform: translateX(300px); }
+    }
+  </style>
+  <defs>
+    <clipPath id="typing-clip"><rect class="typing" x="0" y="-28" width="300" height="40"/></clipPath>
+    <linearGradient id="edge"><stop stop-color="#4b9eac" stop-opacity=".7"/><stop offset="1" stop-color="#24344b"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1278" height="258" rx="16" fill="#0a1420" stroke="url(#edge)"/>
+  <path d="M1 54H1279" stroke="#203244"/>
+  <circle cx="31" cy="28" r="5" fill="#65849a"/>
+  <circle cx="51" cy="28" r="5" fill="#65849a" opacity=".65"/>
+  <circle cx="71" cy="28" r="5" fill="#80e9d9"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="105" y="34" fill="#a1b5c8" font-size="16">sena@github: ~</text>
+    <text x="1228" y="34" text-anchor="end" fill="#6d91a5" font-size="12" letter-spacing="2">HELLO, WORLD</text>
+    <text x="42" y="119" fill="#89f5df" font-size="25">❯</text>
+    <g transform="translate(80 119)">
+      <text clip-path="url(#typing-clip)" fill="#e2f5ff" font-size="25" textLength="300" lengthAdjust="spacingAndGlyphs">build. learn. repeat.</text>
+      <g class="cursor-position"><rect class="cursor" x="3" y="-22" width="11" height="27" rx="1" fill="#89f5df"/></g>
+    </g>
+    <text x="80" y="166" fill="#97adbf" font-size="21">One idea at a time.</text>
+    <text x="80" y="219" fill="#6d91a5" font-size="13" letter-spacing="2">CURIOSITY IS THE STARTING POINT.</text>
+  </g>
+  <g transform="translate(1130 110)" stroke="#82e4d8" stroke-width="4" stroke-linecap="round">
+    <path class="activity" d="M0 26V40"/>
+    <path class="activity" style="animation-delay:-.6s" d="M14 12V54"/>
+    <path class="activity" style="animation-delay:-1.2s" d="M28 0V66"/>
+    <path class="activity" style="animation-delay:-1.8s" d="M42 17V49"/>
+    <path class="activity" style="animation-delay:-2.4s" d="M56 25V41"/>
+  </g>
+</svg>

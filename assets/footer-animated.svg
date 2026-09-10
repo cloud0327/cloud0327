@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="56" viewBox="0 0 1280 56" role="img" aria-label="Thanks for stopping by — cloud0327">
+  <style>
+    .comet { animation: travel 9s ease-in-out infinite; }
+    @keyframes travel { 0% { transform: translateX(-180px); opacity: 0; } 10%,80% { opacity: 1; } 100% { transform: translateX(1280px); opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) { .comet { animation: none; opacity: 0; } }
+  </style>
+  <defs><linearGradient id="line"><stop stop-color="#71dfd1"/><stop offset="1" stop-color="#71dfd1" stop-opacity="0"/></linearGradient><linearGradient id="comet"><stop stop-color="#71dfd1" stop-opacity="0"/><stop offset="1" stop-color="#b4fff1"/></linearGradient></defs>
+  <path d="M0 1H1280" stroke="url(#line)"/>
+  <rect class="comet" x="0" y="0" width="180" height="2" fill="url(#comet)"/>
+  <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" letter-spacing="2" fill="#738b9e">THANKS FOR STOPPING BY.</text>
+  <text x="1280" y="35" text-anchor="end" font-family="Arial, sans-serif" font-size="12" letter-spacing="2" fill="#738b9e">CLOUD0327</text>
+</svg>
